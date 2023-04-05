@@ -16,7 +16,7 @@ for (let i = 0; i < 8; i++) {
     const red = Math.floor(Math.random() * 256);
     const green = Math.floor(Math.random() * 256);
     const blue = Math.floor(Math.random() * 256);
-    tile.style.background = `linear-gradient(to right, rgb(${red}, ${green}, ${blue}), white)`;
+    tile.style.background = `linear-gradient(to right, rgb(${red}, ${green}, ${blue}), green)`;
     }
     setInterval(changeColor, 2000);
 }
