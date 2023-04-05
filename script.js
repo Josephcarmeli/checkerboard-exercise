@@ -13,13 +13,10 @@ for (let i = 0; i < 8; i++) {
     container.appendChild(tile);
 
     
-        if ((i + j) % 2 === 0) {
-            tile.style.backgroundColor = "red";
-
-        } else {
-            tile.style.backgroundColor = "black";
-        }
-
+    const red = Math.floor(Math.random() * 256);
+    const green = Math.floor(Math.random() * 256);
+    const blue = Math.floor(Math.random() * 256);
+    tile.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
 }
   
 }
